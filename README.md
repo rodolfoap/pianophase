@@ -41,7 +41,7 @@ The second example is a bit more elaborated, uses abc notation (https://en.wikip
 
 ## A rendered example
 
-Here's a rendered version: https://github.com/rodolfoap/pianophase/blob/master/pianophase.mp3
+Here's a rendered version: https://github.com/rodolfoap/pianophase/raw/master/pianophase.mp3
 
 Hope having the time to render more tests. Have ideas? Contributions are welcome.
 
