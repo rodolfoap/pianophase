@@ -4,7 +4,7 @@ Computer-generated Steve Reich's Piano Phase is the best way to appreciate the m
 
 ## The Piece
 
-![Piano Phase minimalist cell](https://github.com/rodolfoap/pianophase/img/pianophase.png "Piano Phase minimalist cell")
+![Piano Phase minimalist cell](https://github.com/rodolfoap/pianophase/blob/master/img/pianophase.png)
 
 Piano Phase, by Steve Reich is a contemporary minimalist music composition which is played on two pianos. Both pianos plays a small cell (see image) at slightly different tempos, a task that's very difficult to accomplish by human players. The auditive effects produced by the cell displacement in time produce amazing patterns.
 
@@ -16,10 +16,19 @@ Despite some human interpretations are amazing (there are some people able to pl
 
 This first example uses the sox play function (/usr/bin/play)
 
-phase() { while :; do for n in E4 F#4 B4 C#5 D5 F#4 E4 C#5 B4 F#4 D5 C#5; do /usr/bin/play -qn synth $1 pluck $n; done; echo -n "[$1]"; done; }
+```bash
+phase() {
+	while :; do
+		for n in E4 F#4 B4 C#5 D5 F#4 E4 C#5 B4 F#4 D5 C#5; do
+			/usr/bin/play -qn synth $1 pluck $n;
+		done;
+		echo -n "[$1]";
+	done;
+}
 phase 0.13 & phase 0.131
+```
 
-You can play with the duration values of each note (in this case, 0.130 and 0.131). 
+You can play with the duration values of each note (in this case, 0.130 and 0.131).
 
 See the pianophase.bash file. It includes a function to stop the loop. If not, you can always get the background player to the foreground in bash with CTRL-F, and then, use CTRL-C to stop it.
 
@@ -30,3 +39,12 @@ The second example is a bit more elaborated, uses abc notation (https://en.wikip
 * pianophase1.abc.bash plays both audio channels
 * pianophase2.abc.bash renders a wav file
 
+## A rendered example
+
+Here's a rendered version: https://github.com/rodolfoap/pianophase/blob/master/pianophase.mp3
+
+Hope having the time to render more tests. Have ideas? Contributions are welcome.
+
+Enjoy!
+
+RodolfoAP (http://ydor.org)
