@@ -38,10 +38,12 @@ The second example is a bit more elaborated, uses abc notation (https://en.wikip
 
 * pianophase1.abc.bash plays both audio channels
 * pianophase2.abc.bash renders a wav file
+* pianophase3.abc.bash renders a wav file, includes 8 bars at the beginning and the end, as human players start and end. Tempo is a bit faster (456/2). A gnumeric sheet is included to calculate the right number of repetitions.
 
 ## A rendered example
 
-Here's a rendered version: https://github.com/rodolfoap/pianophase/raw/master/pianophase.mp3
+* Here's a rendered version: https://github.com/rodolfoap/pianophase/raw/master/pianophase.mp3 , also in https://ydor.org/SteveReich/piano_phase.mp3
+* A faster version: https://ydor.org/SteveReich/piano_phase456.mp3
 
 Hope having the time to render more tests. Have ideas? Contributions are welcome.
 
