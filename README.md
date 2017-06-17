@@ -10,6 +10,7 @@ Piano Phase, by Steve Reich is a contemporary minimalist music composition which
 
 What happens under the hood:
 
+The two piano lines have exactly the same number of bars or notes. But since the second piano is played faster than the first, it ends before. The length of the piece has been calculated for both pianos playing the cell on the least common multiple of time (456 cells on example 3).
 ![Piano Phase patters displace](https://github.com/rodolfoap/pianophase/blob/master/img/pianophase_patterns.png)
 
 See https://en.wikipedia.org/wiki/Piano_Phase
