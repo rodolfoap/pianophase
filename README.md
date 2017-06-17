@@ -8,6 +8,10 @@ Computer-generated Steve Reich's Piano Phase is the best way to appreciate the m
 
 Piano Phase, by Steve Reich is a contemporary minimalist music composition which is played on two pianos. Both pianos plays a small cell (see image) at slightly different tempos, a task that's very difficult to accomplish by human players. The auditive effects produced by the cell displacement in time produce amazing patterns.
 
+What happens under the hood:
+
+![Piano Phase patters displace](https://github.com/rodolfoap/pianophase/blob/master/img/pianophase_patterns.png)
+
 See https://en.wikipedia.org/wiki/Piano_Phase
 
 Despite some human interpretations are amazing (there are some people able to play the piece on two pianos alone!), personally I believe that computer-rendered versions offer the best results.
