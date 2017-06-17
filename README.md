@@ -52,6 +52,14 @@ The second example is a bit more elaborated, uses abc notation (https://en.wikip
 
 Hope having the time to render more tests. Have ideas? Contributions are welcome.
 
+## Links
+
+* Piano Phase played on a ER-101 Sequencer: https://www.youtube.com/watch?v=nIeYg61ThWg
+* A solo performance (don't like it very much, it is clear that the pianist is able to coordinate some average patterns, but the transitions are awful, anyway, it should be extremely difficult): https://www.youtube.com/watch?v=AnQdP03iYIo
+* A circular visualization of the cells: http://www.chenalexander.com/Piano-Phase
+* The score: https://www.ciufo.org/classes/sonicart_sp09/readings/SteveReich-PianoPhase.pdf
+* A guide to Steve Reich's music: https://www.theguardian.com/music/tomserviceblog/2012/oct/22/steve-reich-contemporary-music-guide
+
 Enjoy!
 
 RodolfoAP (http://ydor.org)
